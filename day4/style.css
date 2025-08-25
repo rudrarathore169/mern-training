@@ -1,0 +1,73 @@
+.container{
+    width: 300px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    max-width: fit-content;
+    border-bottom: solid red;
+    border-top: solid red;
+    height: 300px;
+    background-color: yellowgreen;
+    margin: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 10px 10px 10px red;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    
+}
+/* https://dev.to/agarwalamn/wait-where-did-my-margin-go-margin-collapsing-explained-4jfe#:~:text=%F0%9F%A4%94%20So%2C%20what%20is%20Margin%20Collapsing%3F%20As%20per,are%20equal%29%2C%20a%20behavior%20known%20as%20margin%20collapsing. */
+body{
+    /* display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap; */
+}
+
+#id{
+    display: inline-block;
+    height: 400px;
+    background-color: chocolate;
+    
+}
+
+#id1{
+    display: inline-block;
+    height: 400px;
+    background-color: magenta;
+    
+}
+
+#id2{
+    /* display: none;
+    visibility: hidden; */
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    margin: auto;
+}
+
+html{
+    font-size: 50px;
+}
+/* px, vh , vw, % , em relative to adjacent parent, rem */
+.parent {
+  width: 500px;
+  height: 300px; /* Must be set for child height: % to work */
+  background: lightgray;
+  font-size: 2rem;
+}
+
+.child {
+  width: 50%;  /* Will be 250px */
+  height: 50%; /* Will be 150px */
+  background: steelblue;
+  font-size: 0.5em;
+}
