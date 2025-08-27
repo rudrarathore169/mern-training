@@ -1,0 +1,14 @@
+.container{
+    background-color: aquamarine;
+  
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+}
+
+#parent-conatiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

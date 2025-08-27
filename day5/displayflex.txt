@@ -1,0 +1,2 @@
+display flex works on main axis and text align works on cross axis we can change main axis from horizontal to vertical by using flex-direction: column; 
+flex wrap default - no wrap 

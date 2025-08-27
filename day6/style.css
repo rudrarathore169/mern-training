@@ -1,0 +1,18 @@
+.parent{
+    display: grid;
+    height: 100vh;
+    background-color: aqua;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,2fr);
+
+    gap: 10px;
+}
+
+.container{
+    background-color: red;
+}
+
+#item-1{
+   grid-column: 1/4;
+   
+}
