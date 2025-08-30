@@ -18,6 +18,11 @@ a{
     color: white;
 }
 
+#hero1{
+    display: flex;
+    
+}
+
 
 #intro{
     display: flex;

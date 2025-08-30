@@ -1,0 +1,54 @@
+/* #container #item-1{
+    color: aquamarine;
+} */
+
+/* h1+p */
+/* h1~p  */
+div>p{
+    color: magenta;
+}
+
+/* pseudo selectors */
+/* pseudo classes */
+/* pseudo elements */
+
+/* pseudo classes focus , hover , link , active , visited , nth-child , last-child , first-child  empty */
+
+/* pseudo-elements-before  ,aborderfter , placeholder, selection */
+/* input{
+    outline: none;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px 1px red;
+
+}
+
+
+input:focus{
+    border: 3px solid red;
+    color: red;
+} */
+
+.tr1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    transition:2s ease-in-out;
+}
+
+.tr1:hover{
+    background-color: cyan;
+    border-radius: 50%;
+}
+/* link-->visited-->hover-->active */
+/* a:visited{
+    color: green;
+} */
+
+/* a:link{
+    color: red;
+} */
+
+p:first-child{
+    color: aquamarine;
+}
