@@ -49,6 +49,11 @@ input:focus{
     color: red;
 } */
 
-p:first-child{
+/* p:first-child{
     color: aquamarine;
+} */
+
+p:nth-child(2n+1){
+    color: aquamarine;
+
 }

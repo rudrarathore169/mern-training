@@ -15,7 +15,12 @@ body{
     height: 300px;
     width: 300px;
     border: 3px solid white;
- 
+    background-color: red;
+    display: flex;
+    border-radius: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    animation: circle 1s linear infinite ;
     
 }
 
@@ -23,11 +28,85 @@ body{
     height: 50px;
     width: 50px;
     background-color: red;
-    transition-duration: 5s;
-    transition-timing-function:ease;
-    transform-origin: top left;
+    border-radius: 50%;
+    /* transition-duration: 10s; */
+    /* transition-timing-function:ease-in-out; */
+    /* transform-origin:left ; */
+    /* animation: spinner 1s ease-in-out infinite alternate-reverse; */
+
 }
 
-#container:hover #box{
-    transform:rotate(36000deg) translate(250px,250px)
+/* #container:hover #box{
+    transform:rotate(36000deg) translate(250px,0px)
+} */
+
+@keyframes spinner {
+    0%, 100%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(250px,0);
+    }
+    50%{
+        transform: translate(250px,250px);
+    }
+    75%{
+        transform: translate(0,250px);
+    }
+    
+}
+
+@keyframes circle {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#googleload{
+    display: flex;
+}
+#id-1{
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+#id-2{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+#id-3{
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+#id-4{
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+@media screen and (max-width:600px)and(max-width:900px){
+    #container{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+
+    }
+}
+
+@nedia screen and (max-width:600px){
+    #container{
+        
+    }
 }
