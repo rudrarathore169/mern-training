@@ -1,7 +1,9 @@
 .hero{
     text-align: center;
+    color: white;
 }
-body{
+main{
+    height: 100vh;
     background-color: black;
 }
 .navbar{
@@ -37,4 +39,27 @@ body{
 
 .social a:hover{
     color: white;
+}
+
+.btn-nav{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bt{
+    background-color: lightskyblue;
+    border-radius: 12%;
+    color: blue;
+    border: none;
+
+}
+
+.crds{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    padding: 30px;
+    margin: 100px 30px 30px 150px;
 }
