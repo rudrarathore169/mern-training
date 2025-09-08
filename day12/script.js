@@ -133,26 +133,26 @@
 
 // loops
 
-function func(n){
-    let stars="";
-    let gstars="";
-        for(let j=0;j<n;j++){
-            stars+="*";
-            if(j==0||j==n-1){
-               gstars+="*";
-            }
-            else{
-                gstars+=" ";
-            }
-        }
-    for(let i=0;i<n;i++){ 
-        if(i==0||i==n-1)
-        console.log(stars);
+// function func(n){
+//     let stars="";
+//     let gstars="";
+//         for(let j=0;j<n;j++){
+//             stars+="*";
+//             if(j==0||j==n-1){
+//                gstars+="*";
+//             }
+//             else{
+//                 gstars+=" ";
+//             }
+//         }
+//     for(let i=0;i<n;i++){ 
+//         if(i==0||i==n-1)
+//         console.log(stars);
 
-        else{
-            console.log(gstars);
-        }
-    }
-}
+//         else{
+//             console.log(gstars);
+//         }
+//     }
+// }
 
-func(6);
+// func(6);
